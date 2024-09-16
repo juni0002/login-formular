@@ -1,0 +1,64 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/***** index.html *****/
+
+h1 {
+  font-family: "Inter", sans-serif;
+  margin: 15px;
+}
+
+form {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  background-color: #0037ff;
+  color: white;
+  padding: 5px;
+  /* border: none; */
+  cursor: pointer;
+  width: 10%;
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  padding: 20px;
+}
+
+.form-box {
+  border: 1px solid #000; /* 2px thick solid black border */
+  width: 80%;
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  width: 20%;
+}
+
+.checkbox input {
+  width: 2%;
+}
+
+label b {
+  margin: 10px;
+}
+
+span.psw {
+  margin: 10px;
+}
+
+span a {
+  text-decoration: none;
+}
